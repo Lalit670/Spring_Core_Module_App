@@ -1,0 +1,35 @@
+ git config --global --list
+user.name=lalit
+user.email=lalitbhagatbgt@gmail.com
+================================
+Git:-
+===
+>>Version control System
+>> used for track the code history
+>>to collaborate with team
+GitHub
+======
+>>it is website used to store and manage their code using Git
+>>https://github.com
+>>repository(folder)->repo
+>>Git@123lalit
+>>Lalit670
+Create Repository
+>>Make first Commit
+tow process 
+1) add 2) commit
+Command:-
+=========
+
+clone:- for creating a clone
+cd :- change directory
+clear :- clear the windows
+ls:- file list
+ls -a : hidden file list 
+status :- status of code
+add:- add new changes
+commit :- it is record of change
+push :- upload local repo content to remote repo
+git push origin main
+
+ 

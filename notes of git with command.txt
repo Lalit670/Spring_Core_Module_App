@@ -1,0 +1,120 @@
+what is Git 
+=======
+Git is a version control system.
+Git helps you keep track of code changes.
+Git is used to collaborate on code.
+--------------------------
+check Git is available or not 
+=====================
+>git --version 
+    if git is not available download from browser and after that 
+create one connection with the help of the following command 
+>git config --global user.name "lalit"
+>git config --global user.email "lalit@gmail.com"
+
+after that check connection is establish or not with the help of 
+following command 
+>git config --global --list
+===================================================
+                                                ********Lets Start********
+                                                ========================
+1)create one folder one VS Code
+=====================
+ 2) create a repository 
+=================
+>git init    :-it will create one empty repository
+
+what is repository 
+===============
+A Git repository is a virtual storage of your project, allowing you to 
+save versions of your code and access them when needed. It's the 
+heart of Git's version control system, enabling you to track changes, 
+revert to previous stages, and collaborate with others.
+
+3) check status 
+>git status 
+     first you will get the master branch  delete it 
+after that create once again repo by using following command 
+>git init -b main 
+now check again status
+then you will get 'main branch' or something else.
+ 
+4) after that create any file in your VS code folder like txt, html, java or anything 
+  after that add those file by using following command 
+>git add Filename.java
+
+**for seeing commits in your branch you should have use 
+the following command
+>git log
+
+5) after that you can commit for permanently store by using following 
+   command with the change message 
+>git commit -m "message"
+
+*message:- you the some message what you change in you project or file 
+
+after that you can check status also
+===============================
+*****Follow some steps 
+                
+            change something in your code or file save it.
+                                            |
+                                check status 
+                                           |
+   after that add by using >git add FileName.txt command 
+                                          |
+  after that commit the change with message by using following command 
+                       >git commit -m "message" 
+=========================================================
+6)You can check how many new line added newly by using following command
+>git diff
+    **it will for before add
+>git diff --staged  
+    **it will for before commit after add 
+
+**>git add .  
+          it will add all file at a time 
+
+**For delete file use following command
+================================ 
+>git rm  --cached FileName
+
+>git clone 
+   for create clone of app
+
+**for creating the folder we are using following command
+>mkdir FolderName
+
+**How to create branch
+===================
+>git checkout -b BranchName
+>git switch  -c BranchName
+*for see the branch 
+>git branch
+*switch from one branch to another branch
+>git switch branchName
+
+*how to delete branch 
+>git branch -d BranchName
+
+*how to merge branch 
+>git murge BranchName
+=========================
+
+**How to pull 
+>git pull origin main
+
+****ssh -keygen -o
+
+
+
+
+
+
+   
+
+
+
+
+
+
